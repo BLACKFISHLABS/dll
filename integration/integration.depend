@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1518897789 source:e:\bf-integration\integration\integration\main.cpp
+	"main.h"
+
+1518897789 e:\bf-integration\integration\integration\main.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock2.h>
+	<ctype.h>
+	<string.h>
+	<ole2.h>
+	<oleauto.h>
+
+1552139337 source:c:\blackfish\source\dll\integration\main.cpp
+	"main.h"
+
+1552139337 c:\blackfish\source\dll\integration\main.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock2.h>
+	<ctype.h>
+	<string.h>
+	<ole2.h>
+	<oleauto.h>
+

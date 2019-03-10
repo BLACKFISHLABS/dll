@@ -1,0 +1,6 @@
+EXPORTS
+    DllMain@12 @1
+    carga @2
+    execute @3
+    sobreforza @4
+    statusforza @5

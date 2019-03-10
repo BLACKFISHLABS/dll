@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1552159260 source:c:\workspace\forza\main.cpp
+	"main.h"
+
+1552158912 c:\workspace\forza\main.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock2.h>
+	<ctype.h>
+	<string.h>
+	<ole2.h>
+	<oleauto.h>
+
+1552162860 source:c:\blackfish\source\dll\forza\main.cpp
+	"main.h"
+
+1552162512 c:\blackfish\source\dll\forza\main.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<winsock2.h>
+	<ctype.h>
+	<string.h>
+	<ole2.h>
+	<oleauto.h>
+

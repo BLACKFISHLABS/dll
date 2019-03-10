@@ -1,0 +1,19 @@
+EXPORTS
+    DllMain@12 @1
+    cancelar @2
+    cancelarMDFe @3
+    cancelarNfce @4
+    download @5
+    emitir @6
+    emitirMDFe @7
+    emitirNfce @8
+    encerrarMDFe @9
+    enviarCCe @10
+    execute @11
+    extrairChaveNFe @12
+    extrairNProt @13
+    inutilizarFaixaNFce @14
+    inutilizarFaixaNFe @15
+    sobre @16
+    statusDocumento @17
+    statusSefaz @18
