@@ -1,6 +1,7 @@
 EXPORTS
     DllMain@12 @1
-    carga @2
-    execute @3
-    sobreforza @4
-    statusforza @5
+    buscacarga @2
+    carga @3
+    execute @4
+    sobreforza @5
+    statusforza @6

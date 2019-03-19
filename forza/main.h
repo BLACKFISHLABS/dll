@@ -25,6 +25,7 @@ extern "C"
 DLL_EXPORT BSTR sobreforza();
 DLL_EXPORT BSTR statusforza(char* host);
 DLL_EXPORT BSTR carga(char* host, char* json);
+DLL_EXPORT BSTR buscacarga(char* host, char* cnpj);
 
 DLL_EXPORT BSTR execute(char* dados, char* host, char* contentType, char* connection, char* keepAlive, char* userAgent, char* method);
 

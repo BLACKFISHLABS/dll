@@ -40,6 +40,18 @@ DLL_EXPORT BSTR carga(char* host, char* json)
     return execute(dados, host, contentType, connection, keepAlive, userAgent, method);
 }
 
+DLL_EXPORT BSTR buscacarga(char* host, char* cnpj)
+{
+    char* method = "POST /carga/download HTTP/1.1";
+    char* userAgent = "\r\nUser-Agent: BLACKFISH DLL";
+    char* keepAlive = "\r\nKeep-Alive: 300";
+    char* connection = "\r\nConnection: keep-alive";
+    char* contentType = "\r\nContent-Type: application/x-www-form-urlencoded";
+
+    char dados[strlen("cnpj=") + strlen(cnpj)];
+    sprintf(dados, "cnpj=%s", cnpj);
+    return execute(dados, host, contentType, connection, keepAlive, userAgent, method);
+}
 
 DLL_EXPORT BSTR execute(char* dados, char* host, char* contentType, char* connection, char* keepAlive, char* userAgent, char* method)
 {
