@@ -3,5 +3,6 @@ EXPORTS
     buscacarga @2
     carga @3
     execute @4
-    sobreforza @5
-    statusforza @6
+    pedidofaturado @5
+    sobreforza @6
+    statusforza @7

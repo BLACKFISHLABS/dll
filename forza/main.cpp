@@ -53,6 +53,19 @@ DLL_EXPORT BSTR buscacarga(char* host, char* cnpj)
     return execute(dados, host, contentType, connection, keepAlive, userAgent, method);
 }
 
+DLL_EXPORT BSTR pedidofaturado(char* host, char* order)
+{
+    char* method = "POST /order/status/invoiced HTTP/1.1";
+    char* userAgent = "\r\nUser-Agent: BLACKFISH DLL";
+    char* keepAlive = "\r\nKeep-Alive: 300";
+    char* connection = "\r\nConnection: keep-alive";
+    char* contentType = "\r\nContent-Type: application/x-www-form-urlencoded";
+
+    char dados[strlen("order=") + strlen(order)];
+    sprintf(dados, "order=%s", order);
+    return execute(dados, host, contentType, connection, keepAlive, userAgent, method);
+}
+
 DLL_EXPORT BSTR execute(char* dados, char* host, char* contentType, char* connection, char* keepAlive, char* userAgent, char* method)
 {
     char request[100000];
